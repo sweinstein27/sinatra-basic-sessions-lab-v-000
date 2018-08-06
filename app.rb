@@ -8,6 +8,6 @@ configure do
   set :session_secret, "secret"
 end
 
-  GET "/" do
+  get "/" do
     erb :index
   end
