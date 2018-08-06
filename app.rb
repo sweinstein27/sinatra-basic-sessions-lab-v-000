@@ -13,6 +13,7 @@ end
   end
 
   post '/checkout' do
+    erb :checkout
     binding.pry
   end
 
