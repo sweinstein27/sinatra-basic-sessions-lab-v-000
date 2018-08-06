@@ -12,9 +12,8 @@ end
     erb :index
   end
 
-  post '/checkout' do
+  post '/' do
     erb :checkout
-    binding.pry
   end
 
 end
