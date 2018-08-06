@@ -13,7 +13,7 @@ end
   end
 
   post '/checkout' do
-    
+    binding.pry
   end
 
 end
